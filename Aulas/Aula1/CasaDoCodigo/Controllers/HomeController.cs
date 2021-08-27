@@ -24,9 +24,9 @@ namespace CasaDoCodigo.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Sua pagina de contato."; //metodo que fornece informações para página (view)
 
-            return View();
+            return View(); //Retorna a view contact.cshtml
         }
 
         public IActionResult Error()

@@ -37,7 +37,7 @@ namespace CasaDoCodigo
                 app.UseExceptionHandler("/Home/Error");
             }
 
-            app.UseStaticFiles();
+            app.UseStaticFiles(); //Utilizando arquivos estáticos (arquivos de imagens, folhas de estilo, etc)
 
             app.UseMvc(routes =>
             {
